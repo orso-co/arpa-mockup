@@ -1,0 +1,32 @@
+<div class="card">
+  <div class="header">
+    <h4>Bürobesetzung</h4>
+    <h5>{{today | date: 'fullDate'}}</h5>
+  </div>
+  <div class="content">
+    <ul class="list-group list-group-flush">
+      <li
+        class="list-group-item"
+        *ngFor="let att of attendances">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">
+            <fa-icon
+              [icon]="faClock"
+              class="mr-1"></fa-icon>
+            {{att.start | date: 'HH:mm'}} - {{att.end | date: 'HH:mm'}}
+          </h5>
+          <small
+            class="text-muted"
+            *ngIf="att.phone">
+            <fa-icon
+              [icon]="faPhone"
+              class="mr-1"></fa-icon>
+            {{att.phone}}
+          </small>
+        </div>
+        <p class="mb-1">{{att.name}}</p>
+      </li>
+    </ul>
+  </div>
+  <div class="footer"></div>
+</div>

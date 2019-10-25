@@ -1,0 +1,61 @@
+<li>
+  <div
+    class="row m-2"
+    *ngIf="!isCurrentUser">
+    <div class="col-2 p-0">
+      <img
+        class="chat-img mx-auto d-block"
+        [src]="chatMessage.imageUrl || '../../../../../assets/user.png'"
+        alt="User Avatar">
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col">
+          <strong class="primary-font">{{chatMessage.name}}</strong>
+
+        </div>
+        <div class="col text-right">
+          <small class="text-muted text-right">
+            <fa-icon
+              [icon]="faClock"
+              class="mr-1"></fa-icon>
+            {{chatMessage.date | timeAgo}}
+          </small>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">{{chatMessage.content}}</div>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="row m-2"
+    *ngIf="isCurrentUser">
+
+    <div class="col">
+      <div class="row">
+        <div class="col">
+          <small class="text-muted text-right">
+            <fa-icon
+              [icon]="faClock"
+              class="mr-1"></fa-icon>
+            {{chatMessage.date | timeAgo}}
+          </small>
+        </div>
+        <div class="col text-right">
+          <strong class="primary-font">Ich</strong>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">{{chatMessage.content}}</div>
+      </div>
+    </div>
+    <div class="col-2 p-0">
+      <img
+        class="chat-img mx-auto d-block"
+        [src]="chatMessage.imageUrl || '../../../../../assets/user.png'"
+        alt="User Avatar">
+    </div>
+  </div>
+</li>

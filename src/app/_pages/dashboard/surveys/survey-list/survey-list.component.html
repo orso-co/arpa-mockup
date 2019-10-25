@@ -1,0 +1,53 @@
+<div class="card">
+  <div class="header">
+    <h4>Umfragen</h4>
+  </div>
+  <div class="content">
+    <div
+      class="card"
+      *ngFor="let survey of sortedSurveys">
+      <div
+        class="ribbon"
+        *ngIf="survey.alreadyVoted">
+        <span>Teilgenommen</span>
+      </div>
+      <div class="header font-weight-bold">{{survey.title}}</div>
+      <div class="content">{{survey.content}}</div>
+      <div class="footer">
+        <div class="row pl-4 pr-3 mb-3">
+          <div class="col-sm">
+            <div class="row pl-2">
+              <small class="text-muted">
+                <fa-icon
+                  [icon]="faCalendarCheck"
+                  class="mr-1"></fa-icon>
+                {{survey.startDate | date: 'fullDate'}}
+              </small>
+            </div>
+            <div class="row pl-2">
+              <small class="text-muted">
+                <fa-icon
+                  [icon]="faCalendarTimes"
+                  class="mr-1"></fa-icon>
+                {{survey.endDate | date: 'fullDate'}}
+              </small>
+            </div>
+          </div>
+          <div class="col-sm">
+            <button
+              *ngIf="survey.alreadyVoted"
+              class="btn btn-primary float-right">
+              Erneut abstimmen
+            </button>
+            <button
+              *ngIf="!survey.alreadyVoted"
+              class="btn btn-success float-right">
+              Abstimmen
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer"></div>
+</div>

@@ -1,0 +1,65 @@
+<div class="container mt-4">
+  <div class="row">
+    <h1>
+      Details zu
+      <span [innerHTML]="newsItem.title"></span>
+    </h1>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card">
+        <img
+          class="card-img-top img-thumbnail"
+          src="{{ newsItem.imageUrl || '../../../assets/news.jpg' }}"
+          alt="{{ newsItem.id }}">
+        <div class="card-body">
+          <div>
+            <strong>Autor:</strong>
+            <p>{{ newsItem.author }}</p>
+          </div>
+          <div>
+            <strong>Erstellt:</strong>
+            <p>{{ newsItem.date | timeAgo }}</p>
+          </div>
+          <div>
+            <strong>Zuletzt geändert:</strong>
+            <p>{{ newsItem.modified | timeAgo }}</p>
+          </div>
+          <div>
+            <strong>Kategorien:</strong>
+            <p>
+              <span
+                *ngFor="let category of newsItem.categories"
+                class="badge badge-secondary mr-1">
+                {{category}}
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div class="btn-group d-flex">
+            <button
+              class="btn btn-primary w-100"
+              (click)="selectTab(1)">
+              Kommentar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-8">
+      <div class="tab-panel">
+        <tabset
+          class="member-tabset"
+          #memberTabs>
+          <tab heading="Details">
+            <p [innerHTML]="newsItem.content"></p>
+          </tab>
+          <tab heading="Kommentare">
+            <app-chat [chatMessages]="newsMessages"></app-chat>
+          </tab>
+        </tabset>
+      </div>
+    </div>
+  </div>
+</div>

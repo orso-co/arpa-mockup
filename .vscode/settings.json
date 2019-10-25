@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.deploySubpath": "",
+    "appService.defaultWebAppToDeploy": "/subscriptions/0b78ba5f-1a2b-4ea4-bb24-403f7c350fee/resourceGroups/orso/providers/Microsoft.Web/sites/orso-arpa"
+}

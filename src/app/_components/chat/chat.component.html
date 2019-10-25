@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="row">
+    <div class="panel panel-primary">
+      <div class="panel-body">
+        <ul class="chat">
+          <app-chat-item
+            *ngFor="let chatMessage of sortedChatMessages"
+            [chatMessage]="chatMessage"
+            [isCurrentUser]="chatMessage.userId === currentUserId"></app-chat-item>
+        </ul>
+      </div>
+      <div class="panel-footer">
+        <div class="input-group">
+          <input
+            id="btn-input"
+            type="text"
+            class="form-control input-sm"
+            placeholder="Kommentar eingeben...">
+          <span class="input-group-btn">
+            <button
+              class="btn btn-primary"
+              id="btn-chat">
+              Senden
+            </button>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

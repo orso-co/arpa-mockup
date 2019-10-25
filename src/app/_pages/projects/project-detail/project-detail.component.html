@@ -1,0 +1,81 @@
+<div class="container mt-4">
+  <div class="row">
+    <h1>Details zu {{ project.project.title }}</h1>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card">
+        <img
+          class="card-img-top img-thumbnail"
+          src="{{ project.project.photoUrl || '../../../assets/project.jpg' }}"
+          alt="{{ project.id }}"
+        />
+        <div class="card-body">
+          <div>
+            <strong>Veranstaltungsort:</strong>
+            <p>{{ project.project.location }}, {{ project.project.city }}</p>
+          </div>
+          <div>
+            <strong>Typ:</strong>
+            <p>{{ project.project.type }}</p>
+          </div>
+          <div>
+            <strong>Datum:</strong>
+            <p>{{ project.project.date | date: 'mediumDate' }}</p>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div class="btn-group d-flex">
+            <button
+              *ngIf="project.userState !== userStateEnum.ja"
+              class="btn btn-success w-100"
+            >
+              Zusagen
+            </button>
+            <button
+              *ngIf="project.userState !== userStateEnum.nein"
+              class="btn btn-danger w-100"
+            >
+              Absagen
+            </button>
+            <button class="btn btn-primary w-100" (click)="selectTab(2)">
+              Kommentar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-8">
+      <div class="tab-panel">
+        <tabset class="member-tabset" #memberTabs>
+          <tab heading="Projektinfo">
+            <h4>Beschreibung</h4>
+            <p>{{ project.project.description }}</p>
+          </tab>
+          <tab heading="Anmeldung">
+            <h4>Bist du angemeldet?</h4>
+            <p>{{ userStateEnum[project.userState] }}</p>
+            <h4>Für welche Position hast du dich angemeldet?</h4>
+            <p>{{ project.position }}</p>
+            <h4>ORSO Status</h4>
+            <p>{{ project.orsoState }}</p>
+          </tab>
+          <tab heading="Kommentar">
+            <h4>Kommentar</h4>
+            <form>
+              <div class="form-group">
+                <textarea
+                  rows="5"
+                  class="form-control"
+                  type="text"
+                  [(ngModel)]="project.comment"
+                  name="comment"
+                ></textarea>
+              </div>
+            </form>
+          </tab>
+        </tabset>
+      </div>
+    </div>
+  </div>
+</div>

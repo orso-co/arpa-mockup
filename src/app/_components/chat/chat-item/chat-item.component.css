@@ -1,0 +1,10 @@
+li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.chat-img {
+  max-height: 60px;
+  border-radius: 50%;
+}

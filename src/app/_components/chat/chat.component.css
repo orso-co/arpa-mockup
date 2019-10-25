@@ -1,0 +1,14 @@
+.chat {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.panel-body {
+  overflow-y: scroll;
+  height: 350px;
+}
+
+.panel-footer {
+  padding-top: 10px;
+}

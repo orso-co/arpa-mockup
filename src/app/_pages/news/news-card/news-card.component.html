@@ -1,0 +1,41 @@
+<div class="card mb-4 project-card">
+  <div class="card-img-wrapper">
+    <img
+      class="card-img-top"
+      src="{{ newsItem.imageUrl || '../../../assets/news.jpg' }}"
+      alt="{{ newsItem.id }}">
+    <ul class="list-inline member-icons animate text-center">
+      <li class="list-inline-item">
+        <button
+          data-toggle="tooltip"
+          data-placement="top"
+          title="Details"
+          class="btn btn-primary"
+          [routerLink]="['/news', newsItem.id]">
+          <fa-icon [icon]="faInfo"></fa-icon>
+        </button>
+      </li>
+      <li class="list-inline-item">
+        <button
+          data-toggle="tooltip"
+          data-placement="top"
+          title="Kommentar schreiben"
+          class="btn btn-primary"
+          [routerLink]="['/news', newsItem.id]"
+          [queryParams]="{ tab: 1 }">
+          <fa-icon [icon]="faComment"></fa-icon>
+        </button>
+      </li>
+    </ul>
+  </div>
+  <div class="card-body p-1">
+    <h6 class="card-title text-center mb-1">
+      {{ newsItem.date | date: 'yyMM' }}
+      <span [innerHTML]="newsItem.title"></span>
+    </h6>
+    <p class="card-text text-muted text-center">{{ newsItem.date | date: 'fullDate' }}</p>
+    <p class="card-text text-muted text-center">
+      <small [innerHtml]="newsItem.excerpt"></small>
+    </p>
+  </div>
+</div>

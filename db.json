@@ -1,0 +1,350 @@
+{
+  "userProjects": [
+    {
+      "project": {
+        "title": "STG Rock Symphony Night Liederhalle",
+        "date": "2019-12-29",
+        "city": "Stuttgart",
+        "location": "Liederhalle",
+        "description": "Nach der großen Jubiläumsshow im Mai in Freiburg und dem Rock-Symphony-Debut in Stuttgart legt ORSO dieses Jahr wieder Rockin‘ Xmas auf: Neben puren Rock-Symphony-Arrangements erleben Sie knallige Rockarrangements mit weihnachtlichem Touch & bekannte Weihnachtslieder in rockigem Gewand!",
+        "photoUrl": "",
+        "type": "Rock Symphony"
+      },
+      "id": "1",
+      "position": "Bass2",
+      "orsoState": "Kandidat",
+      "userState": 1,
+      "comment": "Ich kann am Probewochenende leider nicht dabei sein :-("
+    },
+    {
+      "project": {
+        "title": "STG Rock Symphony Küchenmesse",
+        "date": "2019-11-11",
+        "city": "Stuttgart",
+        "location": "Messehalle C1",
+        "description": "",
+        "photoUrl": "",
+        "type": "Rock Symphony"
+      },
+      "id": "2",
+      "position": "none",
+      "orsoState": "Kandidat",
+      "userState": 0,
+      "comment": ""
+    },
+    {
+      "project": {
+        "title": "Rock-Symphony 25 Jahre ORSO",
+        "date": "2019-12-19",
+        "city": "Freiburg",
+        "location": "Konzerthaus",
+        "description": "",
+        "photoUrl": "https://www.orso.co/wp-content/uploads/2018/06/MC227897_1.jpg",
+        "type": "Rock Symphony"
+      },
+      "id": "3",
+      "position": "none",
+      "orsoState": "Kandidat",
+      "userState": 2,
+      "comment": ""
+    },
+    {
+      "project": {
+        "title": "Berlin - MOMA2 - Mozart/Mahler-Verschränkung",
+        "date": "2019-04-18",
+        "city": "Berlin",
+        "location": "Philharmonie",
+        "description": "",
+        "photoUrl": "https://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/7/28/1406554322025/d4aa8b75-eaf2-4b0b-8906-d335d43265b3-2060x1236.jpeg",
+        "type": "Philharmonic"
+      },
+      "id": "4",
+      "position": "none",
+      "orsoState": "Kandidat",
+      "userState": 2,
+      "comment": ""
+    },
+    {
+      "project": {
+        "month": 1904,
+        "title": "Berlin - Rock-Symphony-Night",
+        "date": "2019-04-16",
+        "city": "Berlin",
+        "location": "Philharmonie",
+        "description": "",
+        "photoUrl": "",
+        "type": "Rock Symphony"
+      },
+      "id": "5",
+      "position": "none",
+      "orsoState": "Kandidat",
+      "userState": 2,
+      "comment": ""
+    },
+    {
+      "project": {
+        "title": "Chorwochenende Kleebach (RoSy)",
+        "date": "2019-03-22",
+        "city": "Munster",
+        "location": "Maison du Kleebach",
+        "description": "",
+        "photoUrl": "https://edge.media.datahc.com/HI155610184.jpg",
+        "type": "Probewochenende"
+      },
+      "id": "6",
+      "position": "",
+      "orsoState": "Zusage",
+      "userState": 1,
+      "comment": "Müsste Sonntags etwas früher gehen"
+    },
+    {
+      "project": {
+        "title": "(FR) Neujahrskonzert: 'Hooray For Hollywood'",
+        "date": "2019-01-13",
+        "city": "Freiburg",
+        "location": "Konzerthaus",
+        "description": "",
+        "photoUrl": "https://i.ytimg.com/vi/3iWq8sNr2YU/maxresdefault.jpg",
+        "type": "Philharmonic"
+      },
+      "id": "7",
+      "position": "Alt2",
+      "orsoState": "Zusage",
+      "userState": 1,
+      "comment": ""
+    },
+    {
+      "project": {
+        "title": "(BLN) Neujahrskonzert: 'Hooray For Hollywood'",
+        "date": "2019-01-03",
+        "city": "Berlin",
+        "location": "Sendesaal des RBB",
+        "description": "",
+        "photoUrl": "https://i.ytimg.com/vi/3iWq8sNr2YU/maxresdefault.jpg",
+        "type": "Philharmonic"
+      },
+      "id": "8",
+      "position": "none",
+      "orsoState": "Kandidat",
+      "userState": 2,
+      "comment": ""
+    },
+    {
+      "project": {
+        "title": "MOMA2 - Mozart/Mahler Verschränkung",
+        "date": "2018-11-25",
+        "city": "Freiburg",
+        "location": "Konzerthaus",
+        "description": "",
+        "photoUrl": "https://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/7/28/1406554322025/d4aa8b75-eaf2-4b0b-8906-d335d43265b3-2060x1236.jpeg",
+        "type": "Philharmonic"
+      },
+      "id": "9",
+      "position": "none",
+      "orsoState": "Kandidat",
+      "userState": 2,
+      "comment": "Komme gerne dennoch zu den Proben, soweit möglich"
+    },
+    {
+      "project": {
+        "title": "Rock Symphony Night (crossover)",
+        "date": "2018-09-01",
+        "city": "Lahr",
+        "location": "Landesgartenschau",
+        "description": "",
+        "photoUrl": "http://ais.badische-zeitung.de/piece/09/50/4c/e2/156257506-h-720.jpg",
+        "type": "Rock Symphony"
+      },
+      "id": "10",
+      "position": "Alt2",
+      "orsoState": "Zusage",
+      "userState": 1,
+      "comment": ""
+    },
+    {
+      "project": {
+        "title": "Hooray For Hollywood (Filmmusik)",
+        "date": "2018-08-07",
+        "city": "Ötigheim",
+        "location": "Freilichtbühne",
+        "description": "",
+        "photoUrl": "https://www.orso.co/wp-content/uploads/2017/05/1-Orchester-Orso-Totale--710x375.jpg",
+        "type": "Philharmonic"
+      },
+      "id": "11",
+      "position": "none",
+      "orsoState": "Zusage",
+      "userState": 1,
+      "comment": ""
+    },
+    {
+      "project": {
+        "title": "Danse générale (Tanzprojekt mit Ravel)",
+        "date": "2018-06-16",
+        "city": "Freiburg",
+        "location": "Konzerthaus",
+        "description": "",
+        "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Fran%C3%A7ois_G%C3%A9rard_Daphnis_and_Chloe.JPG",
+        "type": "Philharmonic"
+      },
+      "id": "12",
+      "position": "none",
+      "orsoState": "AbsageErhalten",
+      "userState": 0,
+      "comment": ""
+    }
+  ],
+
+  "users": [
+    {
+      "id": "a8b061fb-7567-400b-a2a0-854b9b743ad0",
+      "userName": "Lola",
+      "knownAs": "Lola",
+      "photoUrl": "https://randomuser.me/api/portraits/women/3.jpg"
+    },
+    {
+      "id": "c18aa983-c184-421a-9753-fda168659432",
+      "userName": "Dorothy",
+      "knownAs": "Dorothy",
+      "photoUrl": "https://randomuser.me/api/portraits/women/49.jpg"
+    },
+    {
+      "id": "77b35c3b-0163-44e8-a646-e492370f5c57",
+      "userName": "sabinesohn",
+      "knownAs": "Sabine Sohn",
+      "photoUrl": "https://www.xing.com/image/2_d_c_64b01f4ec_21087700_1/sabine-sohn-foto.1024x1024.jpg"
+    }
+  ],
+
+  "newsComments": [
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/3.jpg",
+      "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+      "date": "2019-10-18T11:13:52",
+      "name": "Lola",
+      "userId": "a8b061fb-7567-400b-a2a0-854b9b743ad0"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/49.jpg",
+      "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+      "date": "2019-10-19T11:13:52",
+      "name": "Dorothy",
+      "userId": "c18aa983-c184-421a-9753-fda168659432"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/3.jpg",
+      "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+      "date": "2019-10-20T11:13:52",
+      "name": "Lola",
+      "userId": "a8b061fb-7567-400b-a2a0-854b9b743ad0"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/49.jpg",
+      "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+      "date": "2019-10-21T11:13:52",
+      "name": "Dorothy",
+      "userId": "c18aa983-c184-421a-9753-fda168659432"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/3.jpg",
+      "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+      "date": "2019-10-22T11:13:52",
+      "name": "Lola",
+      "userId": "a8b061fb-7567-400b-a2a0-854b9b743ad0"
+    }
+  ],
+
+  "messages": [
+    {
+      "imageUrl": "https://www.xing.com/image/2_d_c_64b01f4ec_21087700_1/sabine-sohn-foto.1024x1024.jpg",
+      "content": "Dein Teilnahmestatus wurde geändert für 1905 Rock-Symphony 25 Jahre ORSO | Konzerthaus Freiburg",
+      "date": "2019-03-26T15:34:24",
+      "name": "Sabine Sohn",
+      "userId": "77b35c3b-0163-44e8-a646-e492370f5c57"
+    },
+    {
+      "imageUrl": "https://www.xing.com/image/2_d_c_64b01f4ec_21087700_1/sabine-sohn-foto.1024x1024.jpg",
+      "content": "Dein Teilnahmestatus wurde geändert für 1903 Chorwochenende Kleebach (RoSy)",
+      "date": "2019-01-19T11:59:11",
+      "name": "Sabine Sohn",
+      "userId": "77b35c3b-0163-44e8-a646-e492370f5c57"
+    },
+    {
+      "imageUrl": "https://www.xing.com/image/2_d_c_64b01f4ec_21087700_1/sabine-sohn-foto.1024x1024.jpg",
+      "content": "Einladung zu neuem Projekt: 1904 MOMA2 - Mozart/Mahler Verschränkung",
+      "date": "2018-05-30T15:41:31",
+      "name": "Sabine Sohn",
+      "userId": "77b35c3b-0163-44e8-a646-e492370f5c57"
+    }
+  ],
+
+  "surveyParticipations": [
+    {
+      "surveyId": "dc2c57ee-cb7d-470b-b7c2-e6b3b46a57ca",
+      "title": "NEUE UMFRAGE NACH PANNE: Terminpräferenz Januar 2020 ROSY Berlin",
+      "content": "Dies ist die neue Umfrage zum gleichen Thema! (siehe obige Meldung). Es geht um das Rock-Symphony-Konzert in der Philharmonie Berlin. Wir haben die Wahl zwischen dem 2. und 6. Januar 2020. Erläuterung siehe letzte Mail. Beides hat Vor- und Nachteile, wir wollen Eure Meinung dazu :-) Nochmal! Bitte und Danke! :-)",
+      "startDate": "2019-06-28T18:00:00",
+      "endDate": "2019-07-01T16:00:00",
+      "alreadyVoted": false
+    },
+    {
+      "surveyId": "a43f3424-4fd9-4a5b-8437-b177ccd2a3f9",
+      "title": "Chorprobe Stuttgart : 23. oder 25. Juli? Welcher Tag ist besser für euch?",
+      "content": "Dies ist die neue Umfrage zum gleichen Thema! (siehe obige Meldung). Es geht um das Rock-Symphony-Konzert in der Philharmonie Berlin. Wir haben die Wahl zwischen dem 2. und 6. Januar 2020. Erläuterung siehe letzte Mail. Beides hat Vor- und Nachteile, wir wollen Eure Meinung dazu :-) Nochmal! Bitte und Danke! :-)",
+      "startDate": "2019-07-03T11:00:00",
+      "endDate": "2019-07-04T23:00:00",
+      "alreadyVoted": false
+    },
+    {
+      "surveyId": "32d0a97e-7635-4314-93a0-129eb4a0da68",
+      "title": "Erste Chorprobe nach der Sommerpause in Freiburg",
+      "content": "Dies ist die neue Umfrage zum gleichen Thema! (siehe obige Meldung). Es geht um das Rock-Symphony-Konzert in der Philharmonie Berlin. Wir haben die Wahl zwischen dem 2. und 6. Januar 2020. Erläuterung siehe letzte Mail. Beides hat Vor- und Nachteile, wir wollen Eure Meinung dazu :-) Nochmal! Bitte und Danke! :-)",
+      "startDate": "2019-08-28T18:00:00",
+      "endDate": "2019-08-31T16:00:00",
+      "alreadyVoted": true
+    }
+  ],
+
+  "officeAttendances": [
+    {
+      "start": "2019-10-24T10:00:00",
+      "end": "2019-10-24T18:00:00",
+      "name": "Sabine Sohn",
+      "phone": "0761-7073203"
+    },
+    {
+      "start": "2019-10-24T10:00:00",
+      "end": "2019-10-24T18:00:00",
+      "name": "Charlotte Koegel"
+    },
+    {
+      "start": "2019-10-24T10:00:00",
+      "end": "2019-10-24T14:30:00",
+      "name": "Sandra Roese",
+      "phone": "0761-7073202"
+    },
+    {
+      "start": "2019-10-24T10:00:00",
+      "end": "2019-10-24T18:00:00",
+      "name": "Wolfgang Roese",
+      "phone": "030-311 62 602"
+    },
+    {
+      "start": "2019-10-24T14:00:00",
+      "end": "2019-10-24T18:00:00",
+      "name": "Laura Sohn",
+      "phone": "0761 70 73 202"
+    },
+    {
+      "start": "2019-10-24T15:00:00",
+      "end": "2019-10-24T15:45:00",
+      "name": "Vivien Eichler"
+    },
+    {
+      "start": "2019-10-24T16:45:00",
+      "end": "2019-10-24T18:00:00",
+      "name": "Vivien Eichler",
+      "phone": "030 311 62 602"
+    }
+  ]
+}
